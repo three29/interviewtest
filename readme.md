@@ -31,6 +31,6 @@
 
 
 ## Video of working examples and what needs to happen ##
-https://s3-us-west-1.amazonaws.com/three29/testexample.mov
+http://youtu.be/MYf4IXETt2Y
 
 **Good Luck!**
