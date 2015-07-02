@@ -19,7 +19,7 @@
 * IMPORTANT! For every click on any of the divs (#div1, #div2, #div3, #div4) you need to make an AJAX call and save a cookie with the state of that div - if you refresh the page the div should have the same state as the last time you clicked it:
 *     - example: - if I click #div1 and the width goes 100% - if I refresh the page that div needs to have width 100% - please take a look at the video at the end of this readme file;
 *     - if I click #div3 and the width goes 100% and background red - that means if I refresh the page that div will have width 100% and and background red - please take a look at the video at the end of this readme file
-
+* If the screen size is smaller or equal than 600px then the div3 and div4 should be hidden.
     
 * Other: there are no restrictions on what to use and change, use as many php variables you want/need, css classes, any javascript libraries etc - here at Three29 we like to work clean so we encourage you to make this script as clean and optimized as possible
 
