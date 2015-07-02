@@ -24,10 +24,9 @@
 * Other: there are no restrictions on what to use and change, use as many php variables you want/need, css classes, any javascript libraries etc - here at Three29 we like to work clean so we encourage you to make this script as clean and optimized as possible
 
 ### Working example and screenshots: ###
-* Full screen
+
 ![screenshot1.png](https://bitbucket.org/repo/9zoAd6/images/3556956960-screenshot1.png)
 
-* Responsive
 ![screenshot2.png](https://bitbucket.org/repo/9zoAd6/images/152755078-screenshot2.png)
 
 
