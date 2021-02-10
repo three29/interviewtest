@@ -26,7 +26,7 @@
 
 ### Working example screenshot: ###
 
-![screenshot1.png](https://bitbucket.org/repo/9zoAd6/images/3556956960-screenshot1.png)
+![screenshot1.png](example.png)
 
 
 ## Video of working example ##
