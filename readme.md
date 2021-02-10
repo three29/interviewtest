@@ -5,7 +5,7 @@
 - use the template provided in this repository
 - initial state of each div:
 - div1 - has width 25%, a responsive background image ( see $cover_image ), on click width becomes 100%
-- div2 - has width 75&, background color orange, contains a random image from $random_images array - every refresh should pull a random image, on click width becomes 100%
+- div2 - has width 75%, background color orange, contains a random image from $random_images array - every refresh should pull a random image, on click width becomes 100%
 - div3 - has width 50%, background color blue, on click width becomes 100% and background color animates into a red
 - div4 - has with 90%, shows an iteration of numbers (see details below)
 - **iteration of numbers**: *using a SINGLE for loop and no arrays please output: 1 3 5 7 9 7 5 3 1*
