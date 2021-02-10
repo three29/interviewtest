@@ -8,7 +8,7 @@ $random_images = array(
 	'http://quest.nasa.gov/mars/background/images/mars.gif'
 );
 
-$cover_image = 'http://www.lovethispic.com/uploaded_images/20521-Rocky-Beach-Sunset.jpg';
+$cover_image = 'http://www.androidguys.com/wp-content/uploads/2016/01/summer-sunset-293095.jpg';
 
 //php code here
 
