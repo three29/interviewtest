@@ -17,7 +17,7 @@
   - if you click #div4 - width goes 100% - the text is always centered -  if you click again it goes back to initial state - if you click again it goes back to width 100% etc
               
 ## IMPORTANT! ##
-- For every click on any of the divs (#div1, #div2, #div3, #div4) you need to make an AJAX call and save a cookie with the state of that div - if you refresh the page the div should have the same state as the last time you clicked it:
+- For every click on any of the divs (#div1, #div2, #div3, #div4) you need to make an AJAX call and **save a cookie with the state of that div in PHP** - if you refresh the page the div should have the same state as the last time you clicked it:
   - if I click #div1 and the width goes 100% - if I refresh the page that div needs to have width 100% - please take a look at the video at the end of this readme file;
   - if I click #div3 and the width goes 100% and background red - that means if I refresh the page that div will have width 100% and and background red - please take a look at the video at the end of this readme file
   - If the screen size is smaller or equal than 600px then the div3 and div4 should be hidden.
