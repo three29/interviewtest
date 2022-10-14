@@ -8,7 +8,7 @@
 - div2 - has width 75%, background color orange, contains a random image from $random_images array - every refresh should pull a random image, on click width becomes 100%
 - div3 - has width 50%, background color blue, on click width becomes 100% and background color animates into a red
 - div4 - has with 90%, shows an iteration of numbers (see details below)
-- **iteration of numbers**: *using a SINGLE for loop and no arrays please output: 1 3 5 7 9 7 5 3 1*
+- **iteration of numbers**: *using PHP and only a SINGLE for loop (no arrays, string manipulation/string reversing) please output: 1 3 5 7 9 7 5 3 1*
 - the page needs to be responsive - all divs will fill in the entire vertical space - please see screenshot - if page resizes their sizes are changed accordingly see screenshot 
 - when you click one of the divs (#div1,#div2, #div3, #div4) their state needs to toogle
   - if you click #div1 - width goes 100% - if you click again it goes back to initial state ( width 25%) - if you click again it goes back to width 100% etc
