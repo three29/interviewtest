@@ -2,7 +2,7 @@
 
 ## Requirements: ##
 - build a page that has 4 divs and they look exactly like in the screenshots provided at the end of this requirements
-- use the template provided in this repository
+- use the template provided in this repository (index.php)
 - initial state of each div:
 - div1 - has width 25%, a responsive background image ( see $cover_image ), on click width becomes 100%
 - div2 - has width 75%, background color orange, contains a random image from $random_images array - every refresh should pull a random image, on click width becomes 100%
