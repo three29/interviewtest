@@ -121,7 +121,8 @@ describe('Assessment Requirements', () => {
 
         // Should have the number string '1 3 5 7 9 7 5 3 1'
         cy.get('#div4')
-            .should('contain', '1 3 5 7 9 7 5 3 1')
+            .invoke('text')
+            .should('match', /1\s*3\s*5\s*7\s*9\s*7\s*5\s*3\s*1/g)
 
         // Should be 90% of width of viewport
         cy.get('#div4')
