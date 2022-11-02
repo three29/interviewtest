@@ -147,28 +147,28 @@ describe('Assessment Requirements', () => {
     it('Should have divs that toggle colors and size', () => {
         cy.viewport(1000, 1000)
 
-        cy.intercept('/').as('div1Save')
+        cy.intercept(/\/(index\.php)?/).as('div1Save')
         cy.get('#div1')
             .click()
             .invoke('outerWidth')
             .should('equal', 1000)
         cy.wait('@div1Save')
 
-        cy.intercept('/').as('div2Save')
+        cy.intercept(/\/(index\.php)?/).as('div2Save')
         cy.get('#div2')
             .click()
             .invoke('outerWidth')
             .should('equal', 1000)
         cy.wait('@div2Save')
 
-        cy.intercept('/').as('div3Save')
+        cy.intercept(/\/(index\.php)?/).as('div3Save')
         cy.get('#div3')
             .click()
             .invoke('outerWidth')
             .should('equal', 1000)
         cy.wait('@div3Save')
 
-        cy.intercept('/').as('div4Save')
+        cy.intercept(/\/(index\.php)?/).as('div4Save')
         cy.get('#div4')
             .click()
             .invoke('outerWidth')
